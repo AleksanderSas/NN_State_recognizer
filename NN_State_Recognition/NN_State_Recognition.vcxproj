@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E5A8988A-213B-4EB9-987E-9288E0E969EC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NN_State_Recognition</RootNamespace>
+    <ProjectName>NN_Data_Builder</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>zlib1_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\include;..\..\FANN-2.2.0-Source\src\include;D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\include;..\..\FANN-2.2.0-Source\src\include;D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>zlib1_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\CC_Project\NN_State_Recognition\NN_State_Recognition\libsent\zlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstructPhoneMapper.cpp" />
+    <ClCompile Include="CharSequence.cpp" />
+    <ClCompile Include="CNN.cpp" />
+    <ClCompile Include="DataReader.cpp" />
+    <ClCompile Include="libsent\src\anlz\paramselect.c" />
+    <ClCompile Include="libsent\src\anlz\paramtypes.c" />
+    <ClCompile Include="libsent\src\anlz\param_malloc.c" />
+    <ClCompile Include="libsent\src\anlz\rdparam.c" />
+    <ClCompile Include="libsent\src\anlz\strip.c" />
+    <ClCompile Include="libsent\src\anlz\strip_mfcc.c" />
+    <ClCompile Include="libsent\src\anlz\wrsamp.c" />
+    <ClCompile Include="libsent\src\anlz\wrwav.c" />
+    <ClCompile Include="libsent\src\hmminfo\cdhmm.c" />
+    <ClCompile Include="libsent\src\hmminfo\cdset.c" />
+    <ClCompile Include="libsent\src\hmminfo\check_hmmtype.c" />
+    <ClCompile Include="libsent\src\hmminfo\check_hmm_restriction.c" />
+    <ClCompile Include="libsent\src\hmminfo\chkhmmlist.c" />
+    <ClCompile Include="libsent\src\hmminfo\guess_cdHMM.c" />
+    <ClCompile Include="libsent\src\hmminfo\hmm_lookup.c" />
+    <ClCompile Include="libsent\src\hmminfo\init_phmm.c" />
+    <ClCompile Include="libsent\src\hmminfo\put_htkdata_info.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_data.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_dens.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_mpdf.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_options.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_regtree.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_state.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_streamweight.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_tiedmix.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_trans.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_var.c" />
+    <ClCompile Include="libsent\src\hmminfo\rdhmmlist.c" />
+    <ClCompile Include="libsent\src\hmminfo\read_binhmm.c" />
+    <ClCompile Include="libsent\src\hmminfo\read_binhmmlist.c" />
+    <ClCompile Include="libsent\src\hmminfo\write_binhmm.c" />
+    <ClCompile Include="libsent\src\hmminfo\write_binhmmlist.c" />
+    <ClCompile Include="libsent\src\util\aptree.c" />
+    <ClCompile Include="libsent\src\util\confout.c" />
+    <ClCompile Include="libsent\src\util\endian.c" />
+    <ClCompile Include="libsent\src\util\gzfile.c" />
+    <ClCompile Include="libsent\src\util\jlog.c" />
+    <ClCompile Include="libsent\src\util\mybmalloc.c" />
+    <ClCompile Include="libsent\src\util\mymalloc.c" />
+    <ClCompile Include="libsent\src\util\mystrtok.c" />
+    <ClCompile Include="libsent\src\util\ptree.c" />
+    <ClCompile Include="libsent\src\util\qsort.c" />
+    <ClCompile Include="libsent\src\util\readfile.c" />
+    <ClCompile Include="libsent\src\util\strcasecmp.c" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Para.cpp" />
+    <ClCompile Include="Swap.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TriPhoneMapper.cpp" />
+    <ClCompile Include="UniPhoneMapper.cpp" />
+    <ClCompile Include="PhraseReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstructPhoneMapper.h" />
+    <ClInclude Include="CharSequence.h" />
+    <ClInclude Include="CNN.h" />
+    <ClInclude Include="DataReader.h" />
+    <ClInclude Include="FeatureType.h" />
+    <ClInclude Include="libsent\config-msvc-libsent.h" />
+    <ClInclude Include="libsent\include\sent\adin.h" />
+    <ClInclude Include="libsent\include\sent\dfa.h" />
+    <ClInclude Include="libsent\include\sent\hmm.h" />
+    <ClInclude Include="libsent\include\sent\hmm_calc.h" />
+    <ClInclude Include="libsent\include\sent\htk_defs.h" />
+    <ClInclude Include="libsent\include\sent\htk_hmm.h" />
+    <ClInclude Include="libsent\include\sent\htk_param.h" />
+    <ClInclude Include="libsent\include\sent\machines.h" />
+    <ClInclude Include="libsent\include\sent\mfcc.h" />
+    <ClInclude Include="libsent\include\sent\ngram2.h" />
+    <ClInclude Include="libsent\include\sent\ptree.h" />
+    <ClInclude Include="libsent\include\sent\speech.h" />
+    <ClInclude Include="libsent\include\sent\stddefs.h" />
+    <ClInclude Include="libsent\include\sent\tcpip.h" />
+    <ClInclude Include="libsent\include\sent\util.h" />
+    <ClInclude Include="libsent\include\sent\vocabulary.h" />
+    <ClInclude Include="Swap.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TriPhoneMapper.h" />
+    <ClInclude Include="UniPhoneMapper.h" />
+    <ClInclude Include="PhraseReader.h" />
+    <ClInclude Include="WordStyle.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

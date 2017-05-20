@@ -1,0 +1,13 @@
+*kopia*
+NN_net_for_Julius
+mfc2prob_MLP
+Release
+Debug
+x64
+*.dll
+*.exe
+*.lib
+ipch
+NN_State_Recognition\Debug
+NN_State_Recognition\Release
+NN_State_Recognition\x64

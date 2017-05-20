@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="julius_AM">
+      <UniqueIdentifier>{51f70385-ecc2-43d8-8b23-fcdf6a32656b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="julius_AM\include">
+      <UniqueIdentifier>{09749957-5bb6-4999-afc2-d5703c9f7e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="julius_AM\src">
+      <UniqueIdentifier>{7fce1be0-bfb2-4b32-870d-7d38fee44810}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhraseReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\cdhmm.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\cdset.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\check_hmm_restriction.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\check_hmmtype.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\chkhmmlist.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\guess_cdHMM.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\hmm_lookup.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\init_phmm.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\put_htkdata_info.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_data.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_dens.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_mpdf.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_options.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_regtree.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_state.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_streamweight.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_tiedmix.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_trans.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmdef_var.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\rdhmmlist.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\read_binhmm.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\read_binhmmlist.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\write_binhmm.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\hmminfo\write_binhmmlist.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\aptree.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\confout.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\endian.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\gzfile.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\jlog.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\mybmalloc.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\mymalloc.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\mystrtok.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\ptree.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\qsort.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\readfile.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\util\strcasecmp.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\param_malloc.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\paramselect.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\paramtypes.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\rdparam.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\strip.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\strip_mfcc.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\wrsamp.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libsent\src\anlz\wrwav.c">
+      <Filter>julius_AM\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Para.cpp">
+      <Filter>julius_AM</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstructPhoneMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UniPhoneMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriPhoneMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhraseReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\adin.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\dfa.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\hmm.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\hmm_calc.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\htk_defs.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\htk_hmm.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\htk_param.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\machines.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\mfcc.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\ngram2.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\ptree.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\speech.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\stddefs.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\tcpip.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\util.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\include\sent\vocabulary.h">
+      <Filter>julius_AM\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libsent\config-msvc-libsent.h">
+      <Filter>julius_AM</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstructPhoneMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UniPhoneMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriPhoneMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

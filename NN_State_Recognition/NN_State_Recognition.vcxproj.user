@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data 1.0 -1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>B:\NN_data\THEANO_DATA</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data 0.2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>B:\NN_data\THEANO_DATA</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data 1.0 2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>B:\NN_data\THEANO_DATA</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data\mfsc_data B:\NN_data 0.2</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>B:\NN_data\THEANO_DATA</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
